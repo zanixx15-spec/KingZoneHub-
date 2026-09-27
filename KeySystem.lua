@@ -165,7 +165,7 @@ local function StartMainScript()
         task.wait(0.1)
     end
     
-    _G[Config.Secret] = true 
+    _G[Config.1234] = true 
     
     loadstring(game:HttpGet(Config.MainScriptURL))()
 end
@@ -178,7 +178,7 @@ local function CreateGUI()
     if targetParent:FindFirstChild("OYB_KeySystem") then targetParent.OYB_KeySystem:Destroy() end
 
     local ScreenGui = Instance.new("ScreenGui", targetParent)
-    ScreenGui.Name = "OYB_KeySystem"
+    ScreenGui.Name = "LeoKeySystem"
     ScreenGui.ResetOnSpawn = false
 
     local MainFrame = Instance.new("Frame", ScreenGui)
