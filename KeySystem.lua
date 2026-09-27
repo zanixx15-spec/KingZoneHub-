@@ -165,7 +165,7 @@ local function StartMainScript()
         task.wait(0.1)
     end
     
-    _G[Config.1234] = true 
+    _G[Config.Secret] = true 
     
     loadstring(game:HttpGet(Config.MainScriptURL))()
 end
